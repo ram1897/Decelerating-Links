@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="App6.BlankPage2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App6"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="631*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/Assets/back4.jpg" Stretch="UniformToFill" Margin="-15,-59,0,0" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="-248,-707,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Left" FontFamily="Segoe Print"  TextWrapping="Wrap" Foreground="AntiqueWhite" Text="Set Speed:" VerticalAlignment="Top" Height="32" Width="113" Margin="39,156,0,0" FontSize="24" RenderTransformOrigin="0.342,0.5"/>
+        <ComboBox x:ConnectionId='2' x:Name="comboBox1" HorizontalAlignment="Left" Margin="209,164,0,0" VerticalAlignment="Top" Width="120" Background="#66A8ADC7" RequestedTheme="Dark" RenderTransformOrigin="0.606,-1.958" Height="32"  >
+            <ComboBoxItem x:ConnectionId='7' x:Name="combobox2" Content="20"/>
+            <ComboBoxItem x:ConnectionId='8' x:Name="comboBox3" Content="15"/>
+            <ComboBoxItem x:ConnectionId='9' x:Name="comboBox4" Content="10"/>
+        </ComboBox>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock1" HorizontalAlignment="Left" FontFamily="Segoe Print" TextWrapping="Wrap" Foreground="AntiqueWhite" Text="Select The Mode You Want:" VerticalAlignment="Top" Margin="39,269,0,0" FontSize="24" Height="32" Width="290"/>
+        <RadioButton x:ConnectionId='4' x:Name="radioButton2" Foreground="AntiqueWhite" FontFamily="Segoe Print" Content="Driver Mode" HorizontalAlignment="Left" Margin="165,347,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.872,0.708" Height="40" Width="169"                    />
+        <RadioButton x:ConnectionId='5' x:Name="radioButton" Foreground="AntiqueWhite" FontFamily="Segoe Print" Content="Passenger Mode" HorizontalAlignment="Left" Margin="164,386,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock2" HorizontalAlignment="Center" Height="148" Margin="39,473,0,0" TextWrapping="Wrap"  VerticalAlignment="Bottom" Width="290"/>
+
+    </Grid>
+</Page>
+

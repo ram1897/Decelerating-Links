@@ -1,0 +1,2 @@
+MainPackage=c:\users\ramanathan\documents\visual studio 2015\Projects\App6\App6\bin\x86\Debug\App6_1.0.0.0_x86_Debug.appx
+SymbolPackage=c:\users\ramanathan\documents\visual studio 2015\Projects\App6\App6\AppPackages\App6_1.0.0.0_Debug_Test\App6_1.0.0.0_x86_Debug.appxsym

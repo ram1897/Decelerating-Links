@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="App6.BlankPage3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App6"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="/Assets/back4.jpg" Stretch="UniformToFill" Margin="-15,0,0,0"/>
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Stretch" Height="493" Margin="38,29,40,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="282" FontSize="40"  FontStyle="Normal" Foreground ="AntiqueWhite" TextAlignment="Center" FontFamily="Segoe Print"  Text="This app provides you the option of using driver mode or passenger mode"  />
+
+        <Image x:ConnectionId='2' x:Name="button" Source="/Assets/arrow.png" Margin="-114.963,0,-111.037,50" RenderTransformOrigin="0.905,0.5"                       VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="47.5" Width="586" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+            <Image.RenderTransform>
+                <CompositeTransform SkewX="0.494" TranslateX="-0.241"/>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Page>
+
